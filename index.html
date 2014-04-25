@@ -1,39 +1,115 @@
 <!doctype html>
 <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+      <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/foundation.min.css" />
+      <link rel="stylesheet" href="css/main.css">
+      <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="/">Ernest Hemingway</a></h1>
+        </li>
+      </ul>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li><a href="#summary">Summary</a></li>
+          <li>
+            <a href="#works">Selected works</a>
+          </li>
+        </ul>
+      </section>
+    </nav>
+    
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="panel">
+          <h2 id="summary">Ernest Hemingway</h2>
+          <p>
+            Ernest Miller Hemingway (July 21, 1899 – July 2, 1961) was an American author and journalist. His
+            economical and understated style had a strong influence on 20th-century fiction, while his life of
+            adventure and his public image influenced later generations. Hemingway produced most of his work
+            between the mid-1920s and the mid-1950s, and won the Nobel Prize in Literature in 1954. He published
+            seven novels, six short story collections, and two non-fiction works. Additional works, including
+            three novels, four short story collections, and three non-fiction works, were published posthumously.
+            Many of his works are considered classics of American literature.
+          </p>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+          <p>
+            Hemingway was raised in Oak Park, Illinois. After high school he reported for a few months for The
+            Kansas City Star, before leaving for the Italian front to enlist with the World War I ambulance
+            drivers. In 1918, he was seriously wounded and returned home. His wartime experiences formed the
+            basis for his novel A Farewell to Arms (1929).
+          </p>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
+          <p>
+            In 1921, he married Hadley Richardson, the first of his four wives. The couple moved to Paris, where
+            he worked as a foreign correspondent and fell under the influence of the modernist writers and artists
+            of the 1920s "Lost Generation" expatriate community. He published his first novel, The Sun Also Rises
+            in 1926. After his 1927 divorce from Hadley Richardson, Hemingway married Pauline Pfeiffer; they
+            divorced after he returned from the Spanish Civil War where he had been a journalist, and after which
+            he wrote For Whom the Bell Tolls (1940). Martha Gellhorn became his third wife in 1940; they separated
+            when he met Mary Welsh in London during World War II. He was present at the Normandy Landings and the
+            liberation of Paris.
+          </p>
+
+          <p>
+            Shortly after the publication of The Old Man and the Sea (1952), Hemingway went on safari to Africa,
+            where he was almost killed in two successive plane crashes that left him in pain or ill health for
+            much of his remaining lifetime. Hemingway maintained permanent residences in Key West, Florida (1930s)
+            and Cuba (1940s and 1950s), and in 1959, he bought a house in Ketchum, Idaho, where he committed suicide
+            in the summer of 1961.
+          </p>
+
+          <h2 id="works">Selected Works</h2>
+          <p>
+            Shortly after the publication of The Old Man and the Sea (1952), Hemingway went on safari to Africa,
+            where he was almost killed in two successive plane crashes that left him in pain or ill health for
+            much of his remaining lifetime. Hemingway maintained permanent residences in Key West, Florida (1930s)
+            and Cuba (1940s and 1950s), and in 1959, he bought a house in Ketchum, Idaho, where he committed suicide
+            in the summer of 1961.
+          </p>
+                              
+          <div class-"right">
+            Source: <a href="http://en.wikipedia.org/wiki/Ernest_Hemingway" target="_blank">http://en.wikipedia.org/wiki/Ernest_Hemingway</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.js"><\/script>')</script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+  </body>
 </html>
