@@ -91,7 +91,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+#main section {
+  padding-top: 48px;
+}
 
 
 
